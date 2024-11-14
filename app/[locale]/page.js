@@ -1040,7 +1040,7 @@ export default function Home() {
             <p className="text-xl"> {t('tel')}</p>
             <input
               className="input mb-2 h-10 w-full rounded-2xl px-4"
-              type="text"
+              type="number"
               name="tel"
               onChange={formik.handleChange}
               value={formik.values.tel}

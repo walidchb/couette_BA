@@ -69,6 +69,7 @@ export async function POST(req) {
     return NextResponse.json({ message: 'Order submitted successfully!' });
   } catch (error) {
     console.error('Failed to submit order:', error);
+    console.log(error);
     return NextResponse.json(
       { message: 'Failed to submit order' },
       { status: 500 }
