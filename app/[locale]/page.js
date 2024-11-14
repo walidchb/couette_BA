@@ -884,24 +884,26 @@ export default function Home() {
             className="w-full sm:w-2/3 z-0"
             showArrows={true}
           >
-            <div>
-              <img src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg" />
-            </div>
-            <div>
-              <img src="https://media.istockphoto.com/id/1470130937/photo/young-plants-growing-in-a-crack-on-a-concrete-footpath-conquering-adversity-concept.webp?b=1&s=170667a&w=0&k=20&c=IRaA17rmaWOJkmjU_KD29jZo4E6ZtG0niRpIXQN17fc=" />
-            </div>
-            <div>
-              <img src="https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwb2JqZWN0c3xlbnwwfHwwfHx8MA%3D%3D" />
-            </div>
-            <div>
-              <img src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg" />
-            </div>
-            <div>
-              <img src="https://media.istockphoto.com/id/1470130937/photo/young-plants-growing-in-a-crack-on-a-concrete-footpath-conquering-adversity-concept.webp?b=1&s=170667a&w=0&k=20&c=IRaA17rmaWOJkmjU_KD29jZo4E6ZtG0niRpIXQN17fc=" />
-            </div>
-            <div>
-              <img src="https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwb2JqZWN0c3xlbnwwfHwwfHx8MA%3D%3D" />
-            </div>
+            {[
+              'model1_1.jpg',
+              'model2_3.jpg',
+
+              'model3_3.jpg',
+              'model2_10.jpg',
+              'model3_6.jpg',
+              'model1_12.jpg',
+              'model2_9.jpg',
+              'model3_1.jpg',
+              'model1_10.jpg',
+              'model3_7.jpg',
+              'model2_7.jpg',
+            ].map((src) => {
+              return (
+                <div key={src}>
+                  <img src={src} />
+                </div>
+              );
+            })}
           </Carousel>
         </div>
       </div>
