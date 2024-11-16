@@ -900,7 +900,13 @@ export default function Home() {
             ].map((src) => {
               return (
                 <div key={src}>
-                  <img src={src} />
+                  <Image
+                    src={'/' + src}
+                    layout="responsive"
+                    width={0} // Setting to 0, controlled by container
+                    height={0} //
+                  />
+                  {/* <img src={src} /> */}
                 </div>
               );
             })}
@@ -1083,7 +1089,13 @@ export default function Home() {
                 ].map((item) => {
                   return (
                     <div key={item}>
-                      <img src={`model1_${item}.jpg`} />
+                      <Image
+                        src={'/' + `model1_${item}.jpg`}
+                        layout="responsive"
+                        width={0} // Setting to 0, controlled by container
+                        height={0} //
+                      />
+                      {/* <img src={`model1_${item}.jpg`} /> */}
                     </div>
                   );
                 })}
@@ -1102,7 +1114,13 @@ export default function Home() {
                   (item) => {
                     return (
                       <div key={item}>
-                        <img src={`model2_${item}.jpg`} />
+                        <Image
+                          src={'/' + `model2_${item}.jpg`}
+                          layout="responsive"
+                          width={0} // Setting to 0, controlled by container
+                          height={0} //
+                        />
+                        {/* <img src={`model2_${item}.jpg`} /> */}
                       </div>
                     );
                   }
@@ -1134,7 +1152,13 @@ export default function Home() {
                 ].map((item) => {
                   return (
                     <div key={item}>
-                      <img src={`model3_${item}.jpg`} />
+                      <Image
+                        src={'/' + `model3_${item}.jpg`}
+                        layout="responsive"
+                        width={0} // Setting to 0, controlled by container
+                        height={0} //
+                      />
+                      {/* <img src={`model3_${item}.jpg`} /> */}
                     </div>
                   );
                 })}
@@ -1437,7 +1461,13 @@ export default function Home() {
             className={`w-full my-4 rounded border-b-4 ${loading ? 'border-violet-400 bg-violet-200 hover:border-violet-200 hover:bg-violet-100' : 'border-violet-700 bg-violet-500 hover:border-violet-500 hover:bg-violet-400'}  px-4 py-2 font-bold text-white `}
             type="submit"
           >
-            {loading ? <span>{t('sending')}</span> : <span>{t('CmdBtn')}</span>}{' '}
+            {loading ? (
+              <span className="animate-pulse text-violet-800">
+                {t('sending')}
+              </span>
+            ) : (
+              <span>{t('CmdBtn')}</span>
+            )}{' '}
           </button>
         </form>
       </div>
@@ -1482,6 +1512,15 @@ export default function Home() {
             >
               {t('resseyer')}
             </button>
+          </div>
+        </Modal>
+      )}
+      {loading && (
+        <Modal onClose={closeModal} className={'w-[99vw] sm:w-[20vw]'}>
+          <div className="mb-3 flex items-center justify-center">
+            <span className="animate-pulse text-4xl pt-4 text-gray-800">
+              {t('sending')}
+            </span>
           </div>
         </Modal>
       )}
