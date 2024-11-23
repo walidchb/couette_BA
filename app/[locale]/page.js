@@ -75,8 +75,8 @@ export default function Home() {
       ar_name: 'أدرار',
       longitude: '27.9766155',
       latitude: '-0.20396',
-      delivery_price_domicile: 530,
-      delivery_price_office: 400,
+      delivery_price_domicile: 1100,
+      delivery_price_office: 600,
     },
     {
       id: '2',
@@ -85,7 +85,7 @@ export default function Home() {
       ar_name: 'الشلف',
       longitude: '36.1691245',
       latitude: '1.3539002',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 700,
       delivery_price_office: 400,
     },
     {
@@ -95,8 +95,8 @@ export default function Home() {
       ar_name: 'الأغواط',
       longitude: '33.7873735',
       latitude: '2.8829115',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 900,
+      delivery_price_office: 500,
     },
     {
       id: '4',
@@ -105,7 +105,7 @@ export default function Home() {
       ar_name: 'أم البواقي',
       longitude: '35.8726014',
       latitude: '7.1180248',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 800,
       delivery_price_office: 400,
     },
     {
@@ -115,7 +115,7 @@ export default function Home() {
       ar_name: 'باتنة',
       longitude: '35.32147',
       latitude: '3.1066502',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 800,
       delivery_price_office: 400,
     },
     {
@@ -125,7 +125,7 @@ export default function Home() {
       ar_name: 'بجاية',
       longitude: '36.7695969',
       latitude: '5.0085855',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 700,
       delivery_price_office: 400,
     },
     {
@@ -135,8 +135,8 @@ export default function Home() {
       ar_name: 'بسكرة',
       longitude: '34.8515041',
       latitude: '5.7246709',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 900,
+      delivery_price_office: 500,
     },
     {
       id: '8',
@@ -145,8 +145,8 @@ export default function Home() {
       ar_name: 'بشار',
       longitude: '31.5977602',
       latitude: '-1.8540446',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 1100,
+      delivery_price_office: 600,
     },
     {
       id: '9',
@@ -155,8 +155,8 @@ export default function Home() {
       ar_name: 'البليدة',
       longitude: '36.4803023',
       latitude: '2.8009379',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 500,
+      delivery_price_office: 250,
     },
     {
       id: '10',
@@ -165,7 +165,7 @@ export default function Home() {
       ar_name: 'البويرة',
       longitude: '36.2084234',
       latitude: '3.925049',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 650,
       delivery_price_office: 400,
     },
     {
@@ -175,8 +175,8 @@ export default function Home() {
       ar_name: 'تمنراست',
       longitude: '22.2746227',
       latitude: '5.6754684',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 1300,
+      delivery_price_office: 800,
     },
     {
       id: '12',
@@ -185,8 +185,8 @@ export default function Home() {
       ar_name: 'تبسة',
       longitude: '35.4117259',
       latitude: '8.110545',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 800,
+      delivery_price_office: 500,
     },
     {
       id: '13',
@@ -195,7 +195,7 @@ export default function Home() {
       ar_name: 'تلمسان',
       longitude: '34.8959541',
       latitude: '-1.3150979',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 800,
       delivery_price_office: 400,
     },
     {
@@ -205,7 +205,7 @@ export default function Home() {
       ar_name: 'تيارت',
       longitude: '35.3599899',
       latitude: '1.3916159',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 800,
       delivery_price_office: 400,
     },
     {
@@ -215,7 +215,7 @@ export default function Home() {
       ar_name: 'تيزي وزو',
       longitude: '36.7002068',
       latitude: '4.075957',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 650,
       delivery_price_office: 400,
     },
     {
@@ -226,7 +226,7 @@ export default function Home() {
       longitude: '36.7538259',
       latitude: '3.057841',
       delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_office: 200,
     },
     {
       id: '17',
@@ -235,8 +235,8 @@ export default function Home() {
       ar_name: 'الجلفة',
       longitude: '34.6672467',
       latitude: '3.2993118',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 900,
+      delivery_price_office: 500,
     },
     {
       id: '18',
@@ -245,7 +245,7 @@ export default function Home() {
       ar_name: 'جيجل',
       longitude: '36.7962714',
       latitude: '5.7504845',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 700,
       delivery_price_office: 400,
     },
     {
@@ -255,7 +255,7 @@ export default function Home() {
       ar_name: 'سطيف',
       longitude: '36.1905173',
       latitude: '5.4202134',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 700,
       delivery_price_office: 400,
     },
     {
@@ -265,7 +265,7 @@ export default function Home() {
       ar_name: 'سعيدة',
       longitude: '34.841945',
       latitude: '0.1483583',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 800,
       delivery_price_office: 400,
     },
     {
@@ -275,7 +275,7 @@ export default function Home() {
       ar_name: 'سكيكدة',
       longitude: '36.8777912',
       latitude: '6.9357204',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 700,
       delivery_price_office: 400,
     },
     {
@@ -285,7 +285,7 @@ export default function Home() {
       ar_name: 'سيدي بلعباس',
       longitude: '35.206334',
       latitude: '-0.6301368',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 700,
       delivery_price_office: 400,
     },
     {
@@ -295,7 +295,7 @@ export default function Home() {
       ar_name: 'عنابة',
       longitude: '36.9184345',
       latitude: '7.7452755',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 700,
       delivery_price_office: 400,
     },
     {
@@ -305,7 +305,7 @@ export default function Home() {
       ar_name: 'قالمة',
       longitude: '36.4569088',
       latitude: '7.4334312',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 800,
       delivery_price_office: 400,
     },
     {
@@ -315,7 +315,7 @@ export default function Home() {
       ar_name: 'قسنطينة',
       longitude: '36.319475',
       latitude: '6.7370571',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 700,
       delivery_price_office: 400,
     },
     {
@@ -325,7 +325,7 @@ export default function Home() {
       ar_name: 'المدية',
       longitude: '36.2838408',
       latitude: '2.7728462',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 600,
       delivery_price_office: 400,
     },
     {
@@ -335,7 +335,7 @@ export default function Home() {
       ar_name: 'مستغانم',
       longitude: '35.9751841',
       latitude: '0.1149273',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 700,
       delivery_price_office: 400,
     },
     {
@@ -345,8 +345,8 @@ export default function Home() {
       ar_name: 'المسيلة',
       longitude: '35.7211476',
       latitude: '4.5187283',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 800,
+      delivery_price_office: 500,
     },
     {
       id: '29',
@@ -355,7 +355,7 @@ export default function Home() {
       ar_name: 'معسكر',
       longitude: '35.382998',
       latitude: '0.1542592',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 700,
       delivery_price_office: 400,
     },
     {
@@ -365,8 +365,8 @@ export default function Home() {
       ar_name: 'ورقلة',
       longitude: '32.1961967',
       latitude: '4.9634113',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 1000,
+      delivery_price_office: 500,
     },
     {
       id: '31',
@@ -375,7 +375,7 @@ export default function Home() {
       ar_name: 'وهران',
       longitude: '35.7066928',
       latitude: '-0.6405861',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 700,
       delivery_price_office: 400,
     },
     {
@@ -385,8 +385,8 @@ export default function Home() {
       ar_name: 'البيض',
       longitude: '32.5722756',
       latitude: '0.950011',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 1000,
+      delivery_price_office: 500,
     },
     {
       id: '33',
@@ -395,8 +395,8 @@ export default function Home() {
       ar_name: 'إليزي',
       longitude: '26.5065999',
       latitude: '8.480587',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 1300,
+      delivery_price_office: 600,
     },
     {
       id: '34',
@@ -405,7 +405,7 @@ export default function Home() {
       ar_name: 'برج بوعريريج',
       longitude: '36.0686488',
       latitude: '4.7691823',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 700,
       delivery_price_office: 400,
     },
     {
@@ -415,8 +415,8 @@ export default function Home() {
       ar_name: 'بومرداس',
       longitude: '36.7564181',
       latitude: '3.4917212',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 600,
+      delivery_price_office: 350,
     },
     {
       id: '36',
@@ -425,8 +425,8 @@ export default function Home() {
       ar_name: 'الطارف',
       longitude: '36.7534258',
       latitude: '8.2984543',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 800,
+      delivery_price_office: 0,
     },
     {
       id: '37',
@@ -435,8 +435,8 @@ export default function Home() {
       ar_name: 'تندوف',
       longitude: '27.2460501',
       latitude: '-6.3252899',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 1300,
+      delivery_price_office: 0,
     },
     {
       id: '38',
@@ -445,7 +445,7 @@ export default function Home() {
       ar_name: 'تيسمسيلت',
       longitude: '35.6021906',
       latitude: '1.802187',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 800,
       delivery_price_office: 400,
     },
     {
@@ -455,8 +455,8 @@ export default function Home() {
       ar_name: 'الوادي',
       longitude: '33.3714492',
       latitude: '6.8573436',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 900,
+      delivery_price_office: 500,
     },
     {
       id: '40',
@@ -465,8 +465,8 @@ export default function Home() {
       ar_name: 'خنشلة',
       longitude: '35.4263293',
       latitude: '7.1414137',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 800,
+      delivery_price_office: 500,
     },
     {
       id: '41',
@@ -475,8 +475,8 @@ export default function Home() {
       ar_name: 'سوق أهراس',
       longitude: '36.277849',
       latitude: '7.9592299',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 800,
+      delivery_price_office: 500,
     },
     {
       id: '42',
@@ -485,8 +485,8 @@ export default function Home() {
       ar_name: 'تيبازة',
       longitude: '36.5980966',
       latitude: '2.4085379',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 600,
+      delivery_price_office: 350,
     },
     {
       id: '43',
@@ -495,7 +495,7 @@ export default function Home() {
       ar_name: 'ميلة',
       longitude: '36.4514882',
       latitude: '6.2487316',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 700,
       delivery_price_office: 400,
     },
     {
@@ -505,7 +505,7 @@ export default function Home() {
       ar_name: 'عين الدفلى',
       longitude: '36.1283915',
       latitude: '2.1772514',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 600,
       delivery_price_office: 400,
     },
     {
@@ -515,8 +515,8 @@ export default function Home() {
       ar_name: 'النعامة',
       longitude: '33.1995605',
       latitude: '-0.8021968',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 1000,
+      delivery_price_office: 0,
     },
     {
       id: '46',
@@ -525,18 +525,18 @@ export default function Home() {
       ar_name: 'عين تموشنت',
       longitude: '35.404044',
       latitude: '-1.0580975',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 700,
       delivery_price_office: 400,
     },
     {
       id: '47',
       code: '47',
-      name: 'Ghardaefa',
+      name: 'Ghardaïa',
       ar_name: 'غرداية',
       longitude: '32.5891743',
       latitude: '3.7455655',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 1000,
+      delivery_price_office: 500,
     },
     {
       id: '48',
@@ -545,29 +545,20 @@ export default function Home() {
       ar_name: 'غليزان',
       longitude: '35.8050195',
       latitude: '0.867381',
-      delivery_price_domicile: 400,
+      delivery_price_domicile: 700,
       delivery_price_office: 400,
     },
     {
       id: '49',
       code: '49',
-      name: "El M'ghair",
-      ar_name: 'المغير',
+      name: 'Timimoun',
+      ar_name: 'تيميمون',
       longitude: '33.947222',
       latitude: '5.922222',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 1300,
+      delivery_price_office: 0,
     },
-    {
-      id: '50',
-      code: '50',
-      name: 'El Menia',
-      ar_name: 'المنيعة',
-      longitude: '30.579167',
-      latitude: '2.879167',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
-    },
+
     {
       id: '51',
       code: '51',
@@ -575,39 +566,30 @@ export default function Home() {
       ar_name: 'أولاد جلال',
       longitude: '34.433333',
       latitude: '5.066667',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 900,
+      delivery_price_office: 0,
     },
     {
       id: '52',
       code: '52',
-      name: 'Bordj Baji Mokhtar',
-      ar_name: 'برج باجي مختار',
+      name: 'Béni Abbès',
+      ar_name: 'بني عباس',
       longitude: '21.327778',
       latitude: '0.955556',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 1300,
+      delivery_price_office: 0,
     },
     {
       id: '53',
       code: '53',
-      name: 'Béni Abbès',
-      ar_name: 'بني عباس',
+      name: 'In Salah',
+      ar_name: 'عين صالح',
       longitude: '30.133333',
       latitude: '-2.166667',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 1300,
+      delivery_price_office: 600,
     },
-    {
-      id: '54',
-      code: '54',
-      name: 'Timimoun',
-      ar_name: 'تيميمون',
-      longitude: '29.258333',
-      latitude: '0.230556',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
-    },
+
     {
       id: '55',
       code: '55',
@@ -615,38 +597,29 @@ export default function Home() {
       ar_name: 'تقرت',
       longitude: '33.108333',
       latitude: '6.063889',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 900,
+      delivery_price_office: 0,
     },
-    {
-      id: '56',
-      code: '56',
-      name: 'Djanet',
-      ar_name: 'جانت',
-      longitude: '24.554167',
-      latitude: '9.484722',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
-    },
+
     {
       id: '57',
       code: '57',
-      name: 'In Salah',
-      ar_name: 'عين صالح',
+      name: 'El MGhair',
+      ar_name: 'المغير',
       longitude: '27.197222',
       latitude: '2.483333',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 900,
+      delivery_price_office: 0,
     },
     {
       id: '58',
       code: '58',
-      name: 'In Guezzam',
-      ar_name: 'عين قزام',
+      name: 'El Meniaa',
+      ar_name: 'المنيعة',
       longitude: '19.572222',
       latitude: '5.769444',
-      delivery_price_domicile: 400,
-      delivery_price_office: 400,
+      delivery_price_domicile: 100,
+      delivery_price_office: 0,
     },
   ];
   const closeModal = () => {
@@ -1347,57 +1320,58 @@ export default function Home() {
           </p>
 
           <div className="flex justify-around mt-6">
-            <div
-              onClick={() => {
-                formik.setFieldValue('deliveryType', 1);
-                formik.setFieldValue(
-                  'deliveryPrice',
-                  wilayass.find(
-                    (wilaya) => wilaya.code == formik?.values?.wilaya?.code
-                  ).delivery_price_domicile
-                );
-
-                // formik.setFieldValue(
-                //   'deliveryPrice',
-                //   wilayass.find(
-                //     (wilaya) => wilaya.code == formik?.values?.wilaya?.code
-                // ).delivery_price_domicile
-                // );
-              }}
-              className={`${formik.values.deliveryType == 1 ? 'bg-blue-500 text-white' : ''} w-[40vw] cursor-pointer border-2 mx-1 border-blue-500 hover:bg-blue-500 hover:text-white p-4 text-center text-blue-500  flex flex-col items-center justify-center rounded-lg shadow-lg `}
-            >
-              <h3 className="text-xl font-semibold">
-                {t('Domicile Delivery')}
-              </h3>
-              <p className="text-2xl mt-4">
-                {wilayass.find(
-                  (wilaya) => wilaya.code == formik?.values?.wilaya.code
-                )?.delivery_price_domicile || 0}{' '}
-                {t('DA')}
-              </p>
-            </div>
-            <div
-              onClick={() => {
-                formik.setFieldValue('deliveryType', 2);
-                formik.setFieldValue(
-                  'deliveryPrice',
-                  wilayass.find(
-                    (wilaya) => wilaya.code == formik?.values?.wilaya?.code
-                  ).delivery_price_office
-                );
-              }}
-              className={`${formik.values.deliveryType == 2 ? 'bg-green-500 text-white' : ''} w-[40vw] cursor-pointer border-2 border-green-500 hover:bg-green-500 hover:text-white mx-1 p-4 text-center text-green-500 flex flex-col items-center justify-center rounded-lg shadow-lg `}
-            >
-              <h3 className="text-xl font-semibold">
-                {t('Delivery to Office')}
-              </h3>
-              <p className="text-2xl mt-4">
-                {wilayass.find(
-                  (wilaya) => wilaya.code == formik?.values?.wilaya.code
-                )?.delivery_price_office || 0}{' '}
-                {t('DA')}
-              </p>
-            </div>
+            {wilayass.find(
+              (wilaya) => wilaya.code == formik?.values?.wilaya.code
+            )?.delivery_price_domicile != 0 ? (
+              <div
+                onClick={() => {
+                  formik.setFieldValue('deliveryType', 1);
+                  formik.setFieldValue(
+                    'deliveryPrice',
+                    wilayass.find(
+                      (wilaya) => wilaya.code == formik?.values?.wilaya?.code
+                    ).delivery_price_domicile
+                  );
+                }}
+                className={`${formik.values.deliveryType == 1 ? 'bg-blue-500 text-white' : ''} w-[40vw] cursor-pointer border-2 mx-1 border-blue-500 hover:bg-blue-500 hover:text-white p-4 text-center text-blue-500  flex flex-col items-center justify-center rounded-lg shadow-lg `}
+              >
+                <h3 className="text-xl font-semibold">
+                  {t('Domicile Delivery')}
+                </h3>
+                <p className="text-2xl mt-4">
+                  {wilayass.find(
+                    (wilaya) => wilaya.code == formik?.values?.wilaya.code
+                  )?.delivery_price_domicile || 0}{' '}
+                  {t('DA')}
+                </p>
+              </div>
+            ) : null}
+            {wilayass.find(
+              (wilaya) => wilaya.code == formik?.values?.wilaya.code
+            )?.delivery_price_office != 0 ? (
+              <div
+                onClick={() => {
+                  formik.setFieldValue('deliveryType', 2);
+                  formik.setFieldValue(
+                    'deliveryPrice',
+                    wilayass.find(
+                      (wilaya) => wilaya.code == formik?.values?.wilaya?.code
+                    ).delivery_price_office
+                  );
+                }}
+                className={`${formik.values.deliveryType == 2 ? 'bg-green-500 text-white' : ''} w-[40vw] cursor-pointer border-2 border-green-500 hover:bg-green-500 hover:text-white mx-1 p-4 text-center text-green-500 flex flex-col items-center justify-center rounded-lg shadow-lg `}
+              >
+                <h3 className="text-xl font-semibold">
+                  {t('Delivery to Office')}
+                </h3>
+                <p className="text-2xl mt-4">
+                  {wilayass.find(
+                    (wilaya) => wilaya.code == formik?.values?.wilaya.code
+                  )?.delivery_price_office || 0}{' '}
+                  {t('DA')}
+                </p>
+              </div>
+            ) : null}
           </div>
           <p className="text-red-500 mt-4">
             {formik.errors.deliveryPrice &&
