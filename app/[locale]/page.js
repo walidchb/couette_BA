@@ -953,15 +953,170 @@ export default function Home() {
         <h3 className="text-xl">{t('dimTwo')} </h3>
         <h3 className="text-xl">{t('dimThree')} </h3>
       </div>
+      <div className="flex flex-col text-black px-6  sm:px-20">
+        <h3 className="my-4 text-center ">
+          {t('swipeModel')}
+          {locale === 'fr' ? <span> &rarr;</span> : <span> &larr;</span>}
+        </h3>
+        <h3 className="px-6 py-2">{t('modelOne')} </h3>
+        <div dir="ltr" className="  flex justify-center items-center">
+          <Carousel
+            showThumbs={false}
+            className="w-full sm:w-2/3 z-0"
+            showArrows={true}
+          >
+            {[
+              '1',
+              '2',
+              '3',
+              '4',
+
+              '6',
+              '7',
+              '8',
+              '9',
+              '10',
+              '11',
+              '12',
+              '13',
+              '14',
+            ].map((item) => {
+              return (
+                <div key={item}>
+                  <Image
+                    src={'/' + `model1_${item}.jpg`}
+                    layout="responsive"
+                    width={0} // Setting to 0, controlled by container
+                    height={0} //
+                  />
+                  {/* <img src={`model1_${item}.jpg`} /> */}
+                </div>
+              );
+            })}
+          </Carousel>
+        </div>
+
+        <h3 className="px-6 py-2">{t('modelTwo')} </h3>
+
+        <div dir="ltr" className="  flex justify-center items-center">
+          <Carousel
+            showThumbs={false}
+            className="w-full sm:w-2/3 z-0"
+            showArrows={true}
+          >
+            {['1', '3', '4', '5', '6', '7', '8', '9', '10', '11'].map(
+              (item) => {
+                return (
+                  <div key={item}>
+                    <Image
+                      src={'/' + `model2_${item}.jpg`}
+                      layout="responsive"
+                      width={0} // Setting to 0, controlled by container
+                      height={0} //
+                    />
+                    {/* <img src={`model2_${item}.jpg`} /> */}
+                  </div>
+                );
+              }
+            )}
+          </Carousel>
+        </div>
+        <h3 className="px-6 py-2">{t('modelThree')} </h3>
+
+        <div dir="ltr" className="  flex justify-center items-center">
+          <Carousel
+            showThumbs={false}
+            className="w-full sm:w-2/3 z-0"
+            showArrows={true}
+          >
+            {[
+              '1',
+              '2',
+              '3',
+              '4',
+              '5',
+              '6',
+              '7',
+              '8',
+              '9',
+              '10',
+              '11',
+              '12',
+              '13',
+            ].map((item) => {
+              return (
+                <div key={item}>
+                  <Image
+                    src={'/' + `model3_${item}.jpg`}
+                    layout="responsive"
+                    width={0} // Setting to 0, controlled by container
+                    height={0} //
+                  />
+                  {/* <img src={`model3_${item}.jpg`} /> */}
+                </div>
+              );
+            })}
+          </Carousel>
+        </div>
+        <h3 className="mt-12 mb-8 text-xl text-center">
+          {t('swipeFabric')}{' '}
+          {locale === 'fr' ? <span> &rarr;</span> : <span> &larr;</span>}
+        </h3>
+
+        <div dir="ltr" className=" w-[90vw]  flex justify-center items-center">
+          <Carousel
+            className="w-10/12 sm:w-2/3 z-0"
+            showArrows={true}
+            showThumbs={false}
+          >
+            <div className="relative">
+              <h1
+                className="w-10 h-10 border-4 text-xl border-black rounded-full flex items-center justify-center text-yellow-200 font-bold"
+                style={{ position: 'absolute', top: 15, left: 15 }}
+              >
+                1
+              </h1>
+              <img src="fabric1.jpg" />
+            </div>
+            <div>
+              <h1
+                className="w-10 h-10 border-4 text-xl border-black rounded-full flex items-center justify-center text-yellow-200 font-bold"
+                style={{ position: 'absolute', top: 15, left: 15 }}
+              >
+                2
+              </h1>
+              <img src="fabric3.jpg" />
+            </div>
+            <div>
+              <h1
+                className="w-10 h-10 border-4 text-xl border-black rounded-full flex items-center justify-center text-yellow-200 font-bold"
+                style={{ position: 'absolute', top: 15, left: 15 }}
+              >
+                3
+              </h1>
+              <img src="fabric2.jpg" />
+            </div>
+            <div>
+              <h1
+                className="w-10 h-10 border-4 text-xl border-black rounded-full flex items-center justify-center text-yellow-200 font-bold"
+                style={{ position: 'absolute', top: 15, left: 15 }}
+              >
+                3
+              </h1>
+              <img src="fabric6.jpg" />
+            </div>
+          </Carousel>
+        </div>
+      </div>
       <div
         ref={formRef}
-        className=" w-full  text-black rounded-2xl px-6  sm:px-20 "
+        className=" w-full  text-black rounded-2xl mt-4 px-6  sm:px-20 "
       >
         <form
           className="flex w-full flex-col items-center justify-center "
           onSubmit={formik.handleSubmit}
         >
-          <h3 className="my-4 text-center text-xl">{t('From')}</h3>
+          <h3 className="my-8 text-center text-xl">{t('From')}</h3>
           <div ref={prenomRef} className="w-full">
             <p className="text-xl"> {t('prenom')}</p>
             <input
@@ -1033,110 +1188,7 @@ export default function Home() {
           </p>
           <div name="model" ref={modelRef} className="text-xl">
             <h3 className="my-4 text-center">{t('chooseModel')} </h3>
-            <h3 className="my-4 text-center">
-              {t('swipeModel')}
-              {locale === 'fr' ? <span> &rarr;</span> : <span> &larr;</span>}
-            </h3>
-            <h3 className="px-6 py-2">{t('modelOne')} </h3>
-            <div dir="ltr" className="  flex justify-center items-center">
-              <Carousel
-                showThumbs={false}
-                className="w-full sm:w-2/3 z-0"
-                showArrows={true}
-              >
-                {[
-                  '1',
-                  '2',
-                  '3',
-                  '4',
 
-                  '6',
-                  '7',
-                  '8',
-                  '9',
-                  '10',
-                  '11',
-                  '12',
-                  '13',
-                  '14',
-                ].map((item) => {
-                  return (
-                    <div key={item}>
-                      <Image
-                        src={'/' + `model1_${item}.jpg`}
-                        layout="responsive"
-                        width={0} // Setting to 0, controlled by container
-                        height={0} //
-                      />
-                      {/* <img src={`model1_${item}.jpg`} /> */}
-                    </div>
-                  );
-                })}
-              </Carousel>
-            </div>
-
-            <h3 className="px-6 py-2">{t('modelTwo')} </h3>
-
-            <div dir="ltr" className="  flex justify-center items-center">
-              <Carousel
-                showThumbs={false}
-                className="w-full sm:w-2/3 z-0"
-                showArrows={true}
-              >
-                {['1', '3', '4', '5', '6', '7', '8', '9', '10', '11'].map(
-                  (item) => {
-                    return (
-                      <div key={item}>
-                        <Image
-                          src={'/' + `model2_${item}.jpg`}
-                          layout="responsive"
-                          width={0} // Setting to 0, controlled by container
-                          height={0} //
-                        />
-                        {/* <img src={`model2_${item}.jpg`} /> */}
-                      </div>
-                    );
-                  }
-                )}
-              </Carousel>
-            </div>
-            <h3 className="px-6 py-2">{t('modelThree')} </h3>
-
-            <div dir="ltr" className="  flex justify-center items-center">
-              <Carousel
-                showThumbs={false}
-                className="w-full sm:w-2/3 z-0"
-                showArrows={true}
-              >
-                {[
-                  '1',
-                  '2',
-                  '3',
-                  '4',
-                  '5',
-                  '6',
-                  '7',
-                  '8',
-                  '9',
-                  '10',
-                  '11',
-                  '12',
-                  '13',
-                ].map((item) => {
-                  return (
-                    <div key={item}>
-                      <Image
-                        src={'/' + `model3_${item}.jpg`}
-                        layout="responsive"
-                        width={0} // Setting to 0, controlled by container
-                        height={0} //
-                      />
-                      {/* <img src={`model3_${item}.jpg`} /> */}
-                    </div>
-                  );
-                })}
-              </Carousel>
-            </div>
             <div className="flex w-full  justify-around items-center my-4">
               <button
                 style={{ width: '25vw', height: '25vw' }}
@@ -1194,58 +1246,6 @@ export default function Home() {
           </p>
           <div name="fabricType" ref={fabricRef} className="text-xl">
             <h3 className="my-4 text-center">{t('chooseFabric')}</h3>
-            <h3 className="my-4 text-center">
-              {t('swipeFabric')}{' '}
-              {locale === 'fr' ? <span> &rarr;</span> : <span> &larr;</span>}
-            </h3>
-
-            <div
-              dir="ltr"
-              className=" w-[90vw]  flex justify-center items-center"
-            >
-              <Carousel
-                className="w-10/12 sm:w-2/3 z-0"
-                showArrows={true}
-                showThumbs={false}
-              >
-                <div className="relative">
-                  <h1
-                    className="w-10 h-10 border-4 text-xl border-black rounded-full flex items-center justify-center text-yellow-200 font-bold"
-                    style={{ position: 'absolute', top: 15, left: 15 }}
-                  >
-                    1
-                  </h1>
-                  <img src="fabric1.jpg" />
-                </div>
-                <div>
-                  <h1
-                    className="w-10 h-10 border-4 text-xl border-black rounded-full flex items-center justify-center text-yellow-200 font-bold"
-                    style={{ position: 'absolute', top: 15, left: 15 }}
-                  >
-                    2
-                  </h1>
-                  <img src="fabric3.jpg" />
-                </div>
-                <div>
-                  <h1
-                    className="w-10 h-10 border-4 text-xl border-black rounded-full flex items-center justify-center text-yellow-200 font-bold"
-                    style={{ position: 'absolute', top: 15, left: 15 }}
-                  >
-                    3
-                  </h1>
-                  <img src="fabric2.jpg" />
-                </div>
-                <div>
-                  <h1
-                    className="w-10 h-10 border-4 text-xl border-black rounded-full flex items-center justify-center text-yellow-200 font-bold"
-                    style={{ position: 'absolute', top: 15, left: 15 }}
-                  >
-                    3
-                  </h1>
-                  <img src="fabric6.jpg" />
-                </div>
-              </Carousel>
-            </div>
           </div>
           <div className="grid grid-cols-4 gap-2 justify-center my-4">
             <button
