@@ -1,9 +1,7 @@
 import { Inter, Marhey } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
-import Head from 'next/head';
 import Script from 'next/script'; // Import Script for Facebook Pixel
-
 import { NextIntlClientProvider } from 'next-intl';
 import './globals.css';
 
@@ -54,7 +52,7 @@ export default async function RootLayout({ children, params: { locale } }) {
           <img
             height="1"
             width="1"
-            style="display:none"
+            style={{ display: 'none' }}
             src="https://www.facebook.com/tr?id=2419689638381170&ev=PageView&noscript=1"
           />
         </noscript>
