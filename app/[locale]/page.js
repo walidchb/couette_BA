@@ -12,7 +12,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import { useFormik } from 'formik';
 import Select from 'react-select';
-import { fbPixel } from '@/lib/fbpixel';
+// import { fbPixel } from '@/lib/fbpixel';
 
 export default function Home() {
   const locale = useLocale();
@@ -629,9 +629,9 @@ export default function Home() {
     setShowSuccesModal(false);
   };
 
-  const handleEvent = (total) => {
-    fbPixel.event('AddToCart', { value: total, currency: 'dzd' });
-  };
+  // const handleEvent = (total) => {
+  //   fbPixel.event('AddToCart', { value: total, currency: 'dzd' });
+  // };
   const formatDate = (dateString) => {
     const date = new Date(dateString);
     const month = (date.getMonth() + 1).toString().padStart(2, '0'); // Months are 0-indexed
@@ -688,7 +688,7 @@ export default function Home() {
       if (response.ok) {
         setShowSuccesModal(true);
         formik.resetForm();
-        handleEvent(values?.deliveryPrice + 2900);
+        // handleEvent(values?.deliveryPrice + 2900);
         // alert('Order submitted successfully');
         setLoading(false);
       } else {
