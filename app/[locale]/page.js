@@ -716,7 +716,9 @@ export default function Home() {
     model: Yup.number().required(t('modelErr')),
     fabricType: Yup.number().required(t('fabricTypeErr')),
     deliveryType: Yup.number().required(t('deliveryTypeErr')),
-    deliveryPrice: Yup.number().required(t('deliveryPriceErr')),
+    deliveryPrice: Yup.number()
+      .min(1, t('deliveryPriceErr')) // Ensures the value is greater than 0
+      .required(t('deliveryPriceErr')),
   });
 
   const formik = useFormik({
