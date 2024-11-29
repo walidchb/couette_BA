@@ -678,8 +678,8 @@ export default function Home() {
           wilaya: values.wilaya.name,
           deliveryType: values?.deliveryType === 1 ? 'Home' : 'DC',
           deliveryPrice: values?.deliveryPrice,
-          orderPrice: 2900,
-          total: values?.deliveryPrice + 2900,
+          orderPrice: 2300,
+          total: values?.deliveryPrice + 2300,
           status: 'Ordered',
           orderDate: formatDate(new Date()),
         }),
@@ -688,7 +688,7 @@ export default function Home() {
       if (response.ok) {
         setShowSuccesModal(true);
         formik.resetForm();
-        // handleEvent(values?.deliveryPrice + 2900);
+        // handleEvent(values?.deliveryPrice + 2300);
         // alert('Order submitted successfully');
         setLoading(false);
       } else {
@@ -1408,7 +1408,7 @@ export default function Home() {
                   3200 {t('DA')}
                 </span>
                 - {'  '}
-                <span className="text-green-500"> 2900 {t('DA')}</span>
+                <span className="text-green-500"> 2300 {t('DA')}</span>
               </span>
             </div>
             {/* <div className="flex justify-between items-center mb-2">
@@ -1427,7 +1427,7 @@ export default function Home() {
             <div className="flex justify-between items-center font-bold text-xl">
               <span>{t('Total')}:</span>
               <span>
-                {2900 + formik?.values?.deliveryPrice} {t('DA')}
+                {2300 + formik?.values?.deliveryPrice} {t('DA')}
               </span>
             </div>
           </div>
